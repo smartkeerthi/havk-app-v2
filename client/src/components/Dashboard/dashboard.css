@@ -1,0 +1,30 @@
+.dashboardTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.userDetails {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffffa8;
+  color: #cacaca;
+  box-shadow: 0 0.125rem 0.5rem #ffffff80;
+}
+.userDetails .userProfile {
+  width: 70px;
+  height: 70px;
+}
+.userDetails h3 {
+  font-size: 30px;
+}
+.dashboardUpload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

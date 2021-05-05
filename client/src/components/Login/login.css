@@ -1,0 +1,18 @@
+.loginPage {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.loginBody {
+  display: flex;
+  width: 90%;
+  height: 95%;
+}
+.loginLeft,
+.loginRight {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

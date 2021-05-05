@@ -1,0 +1,59 @@
+.addFriendsContainer {
+  align-items: center;
+}
+.searchContainer {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  border: 3px solid #d1d1d1;
+  border-radius: 20px;
+  padding: 5px;
+}
+.searchContainer > .MuiSvgIcon-root {
+  color: #d1d1d1;
+  font-size: 28px !important;
+}
+.searchContainer .form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form .search {
+  background-color: transparent;
+  outline-width: 0;
+  border: none;
+  flex: 0.9;
+  font-size: 1.3rem;
+  color: #d1d1d1;
+}
+.listOfAllNames {
+  width: 70%;
+  height: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.listOfAllNames::-webkit-scrollbar {
+  display: none;
+}
+.friendContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #d1d1d1;
+}
+.friendProfile {
+  width: 70px;
+  height: 70px;
+}
+.friendDetails {
+  padding-left: 30px;
+}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.appBody {
+  display: flex;
+  height: 90vh;
+  width: 98vw;
+}

@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.main::-webkit-scrollbar {
+  display: none;
+}
+.Post {
+  width: 95%;
+  margin-bottom: 50px;
+  border: 1px solid #fff;
+}
+.PostHeader {
+  width: 100%;
+  background-color: #dadada;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.userName {
+  margin: 0;
+  font-size: 1.3rem;
+  padding-left: 10px;
+}
+.PostBody {
+  width: 100%;
+  height: 65vh;
+}
+.PostBody img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.PostFooter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px;
+  background-color: #dadada;
+}
+.Likes,
+.Comments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.Likes > .MuiSvgIcon-root,
+.Comments > .MuiSvgIcon-root {
+  font-size: 32px !important;
+  margin-right: 10px;
+}
+.Likes h4,
+.Comments h4 {
+  color: #808080;
+}
+
+@media (max-width: 850px) {
+  .main {
+    flex: 1;
+  }
+  .Post {
+    width: 100%;
+  }
+  .PostBody {
+    height: fit-content;
+  }
+}
